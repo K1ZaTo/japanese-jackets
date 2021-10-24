@@ -4,14 +4,14 @@ img {width: 100%;}
 a { text-decoration: none;}
 
 
-.header{
+header{
     display: flex;
     height: 200px;
     width: 100vw;
 }
 
 .pattern{
-    flex: 800%;
+    flex: 80%;
     background-image: url('images/asanoha_pattern-01.png');
 }
 
