@@ -3,22 +3,89 @@ body { margin:0;}
 img {width: 100%;}
 a { text-decoration: none;}
 
-
-.header{
-    display: flex;
-    height: 200px;
-    width: 100vw;
+body{
+  margin: 0;
+  background-color: linen;
 }
 
-.pattern{
-    flex: 800%;
-    background-image: url('images/asanoha_pattern-01.png');
+p{
+  line-height: 44px;
+  font-size: 22px;
+  font-family: bely, serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h1{
+  font-size: 110px;
+  color: #1C4DAB;
+  font-family: belda-normal,serif;
+  font-weight: 200;
+  font-style: italic;
+  margin-bottom:-5%;
+  margin-top: -2%;
+}
+header {
+  display: flex;
+  height: 250px;
+  width: 100vw;
 }
 
+/*classes below*/
+.title{
+  margin-top: -20%;
+  margin-bottom: 2%;
+  margin-left: -25%;
+  font-variant-caps: small-caps;
+  font-weight: 500;
+}
+
+.subhead{
+  font-size: 48px;
+  margin-bottom: -2%;
+  font-variant-caps: small-caps;
+}
+
+.pattern {
+  flex: 75%;
+  background-image: url('images/asanoha_pattern-01.png');
+  margin-right:25%; 
+}
 
 .trans{
-    text-transform:uppercase;
+    font-variant-caps: small-caps;
 }
 
-.home-link {flex:25%;
+.two-col{
+  display: flex;
+  width: 75%;
+  margin: auto;
 }
+
+.two-col div {flex:1;
+}
+
+.left-main{
+  padding-left: -20px;
+}
+.left h1{
+  margin-left: -200px;
+}
+.jacket-img{
+  width: 90%;
+  margin: auto;
+  margin-top: -30%;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+.right-span{
+  text-align: right;
+}
+nav ul {
+  font-family: belda-normal, serif;
+  font-style: italic;
+  list-style-type: none;
+  font-size: 44px;
+  padding-left:0;
+  color: #1C4DAB;
+}
+nav li { line-height: 59px;}
