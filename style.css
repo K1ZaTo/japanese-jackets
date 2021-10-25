@@ -7,28 +7,43 @@ body{
   margin: 0;
   background-color: linen;
 }
-
-p{
-  line-height: 44px;
-  font-size: 22px;
-  font-family: bely, serif;
-  font-weight: 400;
-  font-style: normal;
-}
-h1{
-  font-size: 110px;
-  color: #1C4DAB;
-  font-family: belda-normal,serif;
-  font-weight: 200;
-  font-style: italic;
-  margin-bottom:-5%;
-  margin-top: -2%;
-}
 header {
   display: flex;
   height: 250px;
   width: 100vw;
 }
+p{
+  font-family: bely, serif;
+  font-style: normal;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 44px;
+}
+h1{
+  color: #1C4DAB;
+  font-family: belda-normal,serif;
+  font-style: italic;  
+  font-size: 110px; 
+  font-weight: 200;
+  margin-bottom:-5%;
+  margin-top: -2%;
+}
+a:link{
+  color: #1C4DAB;
+}
+a:visited{
+  color: #1C4DAB;
+}
+nav ul {
+  color: #1C4DAB;  
+  font-family: belda-normal, serif;
+  font-style: italic;
+  font-size: 44px;
+  font-weight:400;
+  padding-left:0;
+  list-style-type: none;
+}
+nav li { line-height: 59px;}
 
 /*classes below*/
 .title{
@@ -38,32 +53,26 @@ header {
   font-variant-caps: small-caps;
   font-weight: 500;
 }
-
 .subhead{
   font-size: 48px;
   margin-bottom: -2%;
   font-variant-caps: small-caps;
 }
-
 .pattern {
   flex: 75%;
   background-image: url('images/asanoha_pattern-01.png');
   margin-right:25%; 
 }
-
 .trans{
     font-variant-caps: small-caps;
 }
-
 .two-col{
   display: flex;
   width: 75%;
   margin: auto;
 }
-
 .two-col div {flex:1;
 }
-
 .left-main{
   padding-left: -20px;
 }
@@ -79,13 +88,6 @@ header {
 }
 .right-span{
   text-align: right;
+  padding-right: 60px;
 }
-nav ul {
-  font-family: belda-normal, serif;
-  font-style: italic;
-  list-style-type: none;
-  font-size: 44px;
-  padding-left:0;
-  color: #1C4DAB;
-}
-nav li { line-height: 59px;}
+
