@@ -1,11 +1,13 @@
 *{box-sizing: border-box;}
-body { margin:0;}
-img {width: 100%;}
-a { text-decoration: none;}
-
 body{
   margin: 0;
   background-color: linen;
+  background-image: url("images/background.png");
+}
+img {width: 100%;}
+a { 
+  color: #1C4DAB;
+  text-decoration: none;
 }
 header {
   display: flex;
@@ -27,12 +29,6 @@ h1{
   font-weight: 200;
   margin-bottom:-5%;
   margin-top: -2%;
-}
-a:link{
-  color: #1C4DAB;
-}
-a:visited{
-  color: #1C4DAB;
 }
 nav ul {
   color: #1C4DAB;  
@@ -61,6 +57,7 @@ nav li { line-height: 59px;}
 .pattern {
   flex: 75%;
   background-image: url('images/asanoha_pattern-01.png');
+  background-position: center;
   margin-right:25%; 
 }
 .trans{
@@ -90,4 +87,3 @@ nav li { line-height: 59px;}
   text-align: right;
   padding-right: 60px;
 }
-
